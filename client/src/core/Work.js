@@ -15,7 +15,7 @@ const Work = () => {
           <div className="col-md-6 pt-2 pb-2 ">
             <a href="#" className="proj">
               <img
-                src="./projects/sbddecoration.png"
+                src="./projects/sbddecoration.PNG"
                 alt=""
                 className="img-fluid"
               />
