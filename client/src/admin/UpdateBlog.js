@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import DashLayout from "../core/DashLayout";
-import { Link } from "react-router-dom";
 import { isAuthenticated } from "../auth/helper";
 import { useState } from "react";
 import { updateBlog, getBlogById } from "./helper/adminapicall";

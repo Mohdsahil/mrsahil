@@ -1,8 +1,6 @@
 import React, { Fragment } from "react";
 import Layout from "./Layout";
-import { Link } from "react-router-dom";
 import { useState } from "react";
-import { getBlogs } from "./helper/blogHelper";
 import { useEffect } from "react";
 import { getBlogById } from "../admin/helper/adminapicall";
 

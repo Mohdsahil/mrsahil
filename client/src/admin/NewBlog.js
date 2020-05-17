@@ -1,11 +1,10 @@
 import React, { useEffect } from "react";
 import DashLayout from "../core/DashLayout";
-import { Link } from "react-router-dom";
 import { isAuthenticated } from "../auth/helper";
 import { useState } from "react";
 import { createBlog } from "./helper/adminapicall";
-import CKEditor from "@ckeditor/ckeditor5-react";
-import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
+// import CKEditor from "@ckeditor/ckeditor5-react";
+// import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
 
 const NewBlog = () => {
   const { user, token } = isAuthenticated();
