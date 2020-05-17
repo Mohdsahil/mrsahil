@@ -3,6 +3,7 @@ import Layout from "./Layout";
 import { useState } from "react";
 import { useEffect } from "react";
 import { getBlogById } from "../admin/helper/adminapicall";
+import { API } from "../backend";
 
 const SingleBlog = ({ match }) => {
   const [blog, setBlogs] = useState([]);
@@ -24,7 +25,7 @@ const SingleBlog = ({ match }) => {
 
   const getImageUrl = (blog) => {
     return blog
-      ? `http://localhost:7000/api/blog/photo/${blog._id}`
+      ? `${API}/blog/photo/${blog._id}`
       : "https://cdn.pixabay.com/photo/2020/04/03/07/26/eye-4997724_960_720.png";
   };
 
